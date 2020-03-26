@@ -1,0 +1,29 @@
+{
+  "name": "jmbdentistry",
+  "version": "1.0.0",
+  "description": "Main website for JMB Dentistry",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntravaglini/jmb-dentistry.git"
+  },
+  "author": "Nicholas Travaglini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntravaglini/jmb-dentistry/issues"
+  },
+  "homepage": "https://github.com/ntravaglini/jmb-dentistry#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
