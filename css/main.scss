@@ -9,16 +9,19 @@ body {
 }
 
 .carousel-top {
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .carousel-caption {
-  top: 50%;
+  top: 34%;
+  h1 {
+    font-size:5vw;
+  }
 }
 
 nav {
     .logo-size, .navbar-brand {
-        max-width: 250px;
+        max-width: 230px;
     }
     .navbar {
         background-color: $linen;
