@@ -37,6 +37,7 @@
     "usemin-cli": "^0.6.0"
   },
   "dependencies": {
+    "animate.css": "^3.7.2",
     "bootstrap": "^4.4.1",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
