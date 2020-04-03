@@ -1,5 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&family=Rubik&display=swap");
+html {
+  scroll-behavior: smooth; }
+
 body {
-  background-color: #eeedea; }
+  background-color: #eeedea;
+  font-family: 'Rubik', sans-derif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600; }
+
+h1 {
+  font-size: 3vw;
+  margin-bottom: 0; }
+
+p {
+  font-size: 1vw; }
+
+.card {
+  border-radius: 0; }
+
+.row {
+  padding: 0; }
 
 .carousel-top {
   margin-top: 100px; }
@@ -9,8 +31,17 @@ body {
   .carousel-caption h1 {
     font-size: 5vw; }
 
+#carouselIndicators li.active {
+  background-color: #ff9955; }
+
+.carousel-control-prev-icon a:hover {
+  color: #ff9955; }
+
+.fitFrame {
+  max-width: 100%; }
+
 nav .logo-size, nav .navbar-brand {
-  max-width: 230px; }
+  max-width: 250px; }
 
 nav .navbar {
   background-color: #eeedea; }
@@ -157,3 +188,26 @@ nav a.nav-link {
     transform: translateY(-9px) rotate(0deg); }
   100% {
     transform: translateY(-9px) rotate(135deg); } }
+
+.locationBox {
+  background-color: #72afb6;
+  height: 100%;
+  max-width: 100%; }
+  .locationBox p {
+    font-size: 2vw; }
+
+.meetBox {
+  background-color: #b2d2d8;
+  height: 100%;
+  max-width: 100%; }
+  .meetBox p {
+    font-size: 1.2vw; }
+
+.line {
+  border-top: 2px solid #fff; }
+
+footer .xray {
+  background-image: url("/img/xray.jpg");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center; }

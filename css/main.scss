@@ -4,8 +4,37 @@ $mid: #92c0c6;
 $dark: #72afb6;
 $peach: #ff9955;
 
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&family=Rubik&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: $linen;
+    font-family: 'Rubik', sans-derif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 3vw;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1vw;
+}
+
+.card {
+  border-radius: 0;
+}
+
+.row {
+  padding:0;
 }
 
 .carousel-top {
@@ -19,9 +48,21 @@ body {
   }
 }
 
+#carouselIndicators li.active {
+  background-color: $peach;
+}
+
+.carousel-control-prev-icon a:hover {
+  color: $peach;
+}
+
+.fitFrame {
+  max-width: 100%;
+}
+
 nav {
     .logo-size, .navbar-brand {
-        max-width: 230px;
+        max-width: 250px;
     }
     .navbar {
         background-color: $linen;
@@ -204,5 +245,35 @@ nav {
       transform: translateY(-9px) rotate(135deg);
     }
   }
+
+.locationBox {
+  background-color: $dark;
+  height: 100%;
+  max-width: 100%;
+      p {
+        font-size:2vw;
+      }
+}
+
+.meetBox {
+  background-color: $light;
+  height: 100%;
+  max-width: 100%;
+      p {
+        font-size:1.2vw;
+      }
+}
+
+.line {
+  border-top: 2px solid #fff;
+}
   
+footer {
+  .xray {
+    background-image: url("/img/xray.jpg");
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
+  }
+}
   
