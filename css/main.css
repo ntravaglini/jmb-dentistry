@@ -56,6 +56,9 @@ p {
   padding: 20px 40px;
   margin: 10px 0px; }
 
+.btn-primary {
+  background-color: #ff9955; }
+
 nav .logo-size, nav .navbar-brand {
   max-width: 250px; }
 
@@ -226,7 +229,7 @@ nav a.nav-link {
     font-size: 5vw; }
 
 h5 {
-  font-size: 5vw; }
+  font-size: 3vw; }
 
 .icon {
   width: 15%; }
