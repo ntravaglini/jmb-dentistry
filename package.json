@@ -41,6 +41,7 @@
     "animate.css": "^3.7.2",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.0",
+    "lodash": "^4.17.15",
     "popper.js": "^1.12.9"
   }
 }
