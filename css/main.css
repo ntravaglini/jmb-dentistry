@@ -26,6 +26,9 @@ p {
   border: none;
   background-color: transparent; }
 
+.cardAdjPad {
+  padding: 1rem .25rem; }
+
 .bg-mid {
   background-color: #92c0c6; }
 
@@ -256,3 +259,7 @@ footer .xray {
     font-size: 3vw; }
   h5 {
     font-size: 2vw; } }
+
+@media only screen and (min-width: 1100px) {
+  .cardAdjPad {
+    padding: 2rem 1rem; } }
