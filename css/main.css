@@ -15,15 +15,16 @@ h1, h2, h3, h4, h5, h6 {
   height: 70px; }
 
 h1 {
-  font-size: 3vw;
+  font-size: 1.5rem;
   margin-bottom: 0; }
 
 p {
-  font-size: 1vw; }
+  font-size: 1rem; }
 
 .card {
   border-radius: 0;
-  border: none; }
+  border: none;
+  background-color: transparent; }
 
 .bg-mid {
   background-color: #92c0c6; }
@@ -47,6 +48,13 @@ p {
 
 .fitFrame {
   max-width: 100%; }
+
+.red {
+  color: red; }
+
+.form-area {
+  padding: 20px 40px;
+  margin: 10px 0px; }
 
 nav .logo-size, nav .navbar-brand {
   max-width: 250px; }
@@ -202,39 +210,46 @@ nav a.nav-link {
   height: 100%;
   max-width: 100%; }
   .locationBox p {
-    font-size: 2vw; }
+    font-size: 3vw; }
+  .locationBox h1 {
+    font-size: 5vw; }
+  .locationBox .space {
+    padding: 2rem; }
 
 .meetBox {
   background-color: #b2d2d8;
   height: 100%;
   max-width: 100%; }
   .meetBox p {
-    font-size: 1.2vw; }
+    font-size: 3vw; }
+  .meetBox h1 {
+    font-size: 5vw; }
+
+h5 {
+  font-size: 5vw; }
+
+.icon {
+  width: 15%; }
 
 .line {
   border-top: 2px solid #fff; }
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg); }
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; }
-
-.flip-card-front {
-  background-color: #92c0c6;
-  color: #fff; }
-
-.flip-card-back {
-  background-color: #2980b9;
-  color: white;
-  transform: rotateY(180deg); }
 
 footer .xray {
   background-image: url("/img/xray.jpg");
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center; }
+
+@media only screen and (min-width: 768px) {
+  .meetBox p {
+    font-size: 1.5vw; }
+  .meetBox h1 {
+    font-size: 3vw; }
+  .meetBox .space {
+    padding: 0; }
+  .locationBox p {
+    font-size: 1.5vw; }
+  .locationBox h1 {
+    font-size: 3vw; }
+  h5 {
+    font-size: 2vw; } }
