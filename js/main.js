@@ -3,6 +3,6 @@ $('.navTrigger').click(function(){
   });
 
 $(function() {
-    $(".carousel").carousel( { interval: 10000 } );
+    $(".carousel").carousel( { interval: 9000 } );
     
   });

@@ -16,9 +16,9 @@
 </head>
 
 <body>
-  <div class="container-fluid p-0 w-100">
+    <div class="container-fluid p-0">
     <header>
-
+        
 <!-- Navigation ///////////////////////////////////////////////////////-->
        <nav class="navbar navbar-expand-lg bg-dark fixed-top">
             <div class="container">
@@ -44,7 +44,7 @@
 <!-- End Navigation ///////////////////////////////////////////////////////-->
 
 <!-- Carousel /////////////////////////////////////////////////////////////-->
-        <div class="mt-5">  
+        <div class="carousel mt-5">  
             <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
@@ -94,87 +94,65 @@
             </div>
         </div>
 <!-- End Carousel ///////////////////////////////////////////////////////-->
-
+        
     </header>
 
-<!-- Our Location ///////////////////////////////////////////////////////-->
-    <div id="ourOffice" class="anchor"></div>
-    <div class="container-fluid">
-
-        <div class="row">
-
-            <div class="col-12 col-md-6 p-0">
-                <img src="/img/office.JPG" alt="801 north magnolia office exterior" class="fitFrame">
-            </div>
-           
-            <div class="col-12 col-md-6 p-0 text-white">               
-                <div class="card h-100 justify-content-center locationBox text-center">
-                    <div class="row">
-                        <div class="col-8 offset-2">
-                            <i class="fas fa-map-marker-alt fa-2x my-3"></i>
-                            <h1>OFFICE LOCATION</h1>
-                            <hr class="line">
-                            <p class="mb-3">801 N MAGNOLIA AVE<br>ORLANDO FL 32801</p>
-                        </div>
-                    </div>
-                </div>               
-            </div>
-            
-        </div>
-        
-    </div>
-<!-- End Our Location ///////////////////////////////////////////////////////-->
-
-<!-- Meet the Dr ///////////////////////////////////////////////////////-->
-    <div id="meetDr" class="container-fluid">
-        <div class="row">
-
-            <div class="col-12 col-md-6 p-0 order-md-2">
-                <img src="/img/dr-b.JPG" alt="801 north magnolia office exterior" class="fitFrame">
-            </div>
-
-            <div class="col-12 col-md-6 p-0 text-white">
-                <div class="card h-100 justify-content-center meetBox text-center">
-                    <div class="row">
-                        <div class="col-8 offset-2">
-                            <i class="fas fa-tooth fa-2x my-3"></i>
-                            <h1>MEET DR BONGIORNO</h1>
-                            <hr class="line">
-                            <p>Br Bongiorno is an Orlando native and long-time resident of College Park where he lives with his wife a tow children. Dr Bongiorno attend the University of Florida Scool of Dentistry whre he earned his Doctor of Dental Science degree. In his spare time he competes in endurance events like Spartan Race and Tough Mudder.</p>
-                        </div>
-                    </div>
-                </div>                                       
-            </div>
-
-        </div>       
-    </div>
-<!-- End Meet the Dr ///////////////////////////////////////////////////////-->
-
-<!-- Services ///////////////////////////////////////////////////////-->
 
 
-<!-- End Services ///////////////////////////////////////////////////////-->
+    <div id="meetDr" class="anchor"></div><!--Office Location-->
+        <div class="container-fluid">
+            <div class="row">
 
-
-<!-- Footer ///////////////////////////////////////////////////////-->
-    <footer class="container-fluid">  
-        <div class="row xray">
-            <div class="container">     
-                <div class="row">                   
-                    <div class="col-12 col-md-6">
-                        test
-                    </div>
-                    <div class="col-12 col-md-6">
-                        test
-                    </div>
+                <div class="col-12 col-md-6 p-0">
+                    <img src="/img/office.JPG" alt="801 north magnolia office exterior" class="fitFrame">
                 </div>
+            
+                <div class="col-12 col-md-6 p-0 text-white">               
+                    <div class="card h-100 justify-content-center locationBox text-center">
+                        
+                            <div class="col-8 offset-2">
+                                <i class="fas fa-map-marker-alt fa-2x my-3"></i>
+                                <h1>OFFICE LOCATION</h1>
+                                <hr class="line">
+                                <p class="mb-3">801 N MAGNOLIA AVE<br>ORLANDO FL 32801</p>
+                            </div>
+                        
+                    </div>               
+                </div>
+                
             </div>
-        </div>       
-    </footer>
+        </div><!--End Office Location-->
+
+        <div id="meetDr" class="anchor"></div><!--Meet the Dr-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-12 col-md-6 order-md-2 p-0">
+                    <img src="/img/dr-b.JPG" alt="Dr Bongiorno dentist headshot" class="fitFrame">
+                </div>
+            
+                <div class="col-12 col-md-6 p-0 text-white">               
+                    <div class="card h-100 justify-content-center meetBox text-center">
+                        
+                            <div class="col-8 offset-2">
+                                <i class="fas fa-tooth fa-2x my-3"></i>
+                                <h1>MEET DR BONGIORNO</h1>
+                                <hr class="line">
+                                <p>Dr Bongiorno is an Orlando native and long-time resident of College Park where he lives with his wife a tow children. Dr Bongiorno attend the University of Florida Scool of Dentistry whre he earned his Doctor of Dental Science degree. In his spare time he competes in endurance events like Spartan Race and Tough Mudder.</p>
+                            </div>
+                        
+                    </div>               
+                </div>
+                
+            </div>
+        </div><!--End Meet the Dr-->
+    
+        
 
 
 
 
+</div><!-- First Container-fluid-->
 
     <!--jQuery, Popper, Bootstrap -->
     <!-- build:js js/main.js -->
@@ -183,6 +161,5 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <!-- endbuild -->
-</div>
 </body>
 </html>
