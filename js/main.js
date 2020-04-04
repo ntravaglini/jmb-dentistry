@@ -2,10 +2,10 @@ $('.navTrigger').click(function(){
     $(this).toggleClass('active');
   });
 
-$(function() {
-    $(".carousel").carousel( { interval: 9000 } );
+/*$(function() {
+    $(".carousel").carousel( { interval: 7000 } );
     
-  });
+  });*/
 
   $(document).ready(function(){ 
     $('#characterLeft').text('140 characters left');
